@@ -17,12 +17,33 @@ const Navbar = () => {
     <Button variant='contained'>Signup</Button>
     </Link>
 
-    <button>MyApp</button>
-    <Typography>news</Typography><br />
+    
+    
     <Link to="/">
     <Button variant='contained'>text</Button>
     </Link> 
     
+    <Link to="/State">
+    <Button variant="contained">State</Button>
+    </Link> 
+
+    <Link to="/count">
+    <Button variant="contained">Count</Button>
+    </Link> 
+
+    <Link to="/button">
+    <Button variant="contained">Button</Button>
+    </Link>
+
+&nbsp;
+
+    <Link to="/l">
+    <Button variant="contained">List</Button>
+    </Link>
+
+    <Link to="/apio">
+    <Button variant="contained">API</Button>
+    </Link>
     
 
 

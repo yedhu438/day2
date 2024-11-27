@@ -7,6 +7,11 @@ import Signup from './components/Signup'
 import Navbar from './components/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Statebasics from './components/Statebasics'
+import Counter from './components/Counter'
+import CounterApp from './components/Counter'
+import Buttons from './components/Buttons'
+import Listmap from './components/Listmap'
+import Api from './components/Api'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,12 +20,15 @@ function App() {
     <>
      
      <Navbar/>
-     <Statebasics/>
+     
      <Routes>
      <Route path="/login" element={<Login/>}/>
      <Route path="/" element={<Signup/>}/>
      <Route path="/state" element={<Statebasics/>}/>
-
+     <Route path="/count" element={<CounterApp/>}/>
+     <Route path="/button" element={<Buttons/>}/>
+     <Route path="/apio" element={<Api/>}/>
+     
     
 
 
